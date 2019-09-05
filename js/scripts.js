@@ -7,4 +7,8 @@ $(document).ready(function() {
     $("#walrus-hidden").fadeIn();
     $("#walrus-showing").fadeOut();
   });
+    // this is blank space
+    $(".top-left").click(function() {
+      $(".top-center").fadeToggle();
+  });
 });
