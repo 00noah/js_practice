@@ -9,6 +9,20 @@ $(document).ready(function() {
   });
     // this is blank space
     $(".top-left").click(function() {
+      $(".top-left").removeClass();
+      $(".top-left").addClass("yellow-card")
       $(".top-center").fadeToggle();
   });
+      // this is blank space
+      $("button#lights-on").click(function() {
+        $("body").removeClass();
+        $("body").addClass("lights-on");
+      });
+
+      $("button#lights-off").click(function() {
+        $("body").removeClass();
+        $("body").addClass("lights-off");
+      });
+
+
 });

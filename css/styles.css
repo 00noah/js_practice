@@ -1,3 +1,21 @@
 #walrus-showing {
   display: none;
 }
+
+.lights-on {
+  background-color: white;
+  color: black;
+}
+
+.lights-off {
+  background-color: black;
+  color: white;
+}
+
+.yellow-card {
+  background-color: green;
+}
+
+/* .top-left {
+  background-color: blue;
+} */
